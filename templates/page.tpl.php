@@ -74,7 +74,7 @@
         <?php endif; ?>
       </div>
     </div><!-- /#page-header -->
-    <div id="content">
+    <div id="content" class="container">
       <a id="main-content"></a>
       <?php print render($page['content']); ?>
     </div>
@@ -88,3 +88,4 @@
     <?php endif; ?>
   </div>
 </footer>
+
